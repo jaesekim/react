@@ -1,0 +1,75 @@
+.Editor {
+  
+}
+
+.Editor .editor_section {
+  margin-bottom: 40px;
+}
+
+.Editor h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.Editor input, textarea {
+  border: none;
+  border-radius: 5px;
+  background-color: #ececec;
+  padding: 20px;
+  font-size: 20px;
+  font-family: "Nanum Pen Script";
+}
+
+.Editor input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.Editor textarea {
+  width: 100%;
+  min-height: 200px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.Editor .emotion_list_wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+}
+
+.Editor .bottom_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.EmotionItem_off {
+  background-color: #ececec;
+}
+
+.EmotionItem_on_1 {
+  background-color: #64c964;
+  color: white;
+}
+
+.EmotionItem_on_2 {
+  background-color: #9dd772;
+  color: white;
+}
+
+.EmotionItem_on_3 {
+  background-color: #fdce17;
+  color: white;
+}
+
+.EmotionItem_on_4 {
+  background-color: #fd8446;
+  color: white;
+}
+
+.EmotionItem_on_5 {
+  background-color: #fd565f;
+  color: white;
+}
